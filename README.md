@@ -16,4 +16,7 @@ This is the screenshot during the game.
 
 
 Rules for the Game
-1. the screenshot is the start frame of the game.
+
+![image](https://github.com/wearewar3/SuperSimpleLudo/raw/master/gameInfo.jpg)
+1. Each player choose has one color and control the plane in this color
+2. the
