@@ -2,7 +2,7 @@
 
 This is a demo for the SSL(SuperSimpleLudo) with no AI players and each player has only one plane.
 
-This is the game screenshot.
+This is the game start screenshot.
 
 ![image](https://github.com/wearewar3/SuperSimpleLudo/raw/master/gameeScreen.jpg)
 
