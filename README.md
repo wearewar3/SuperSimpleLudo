@@ -20,6 +20,7 @@ Rules for the Game
 ![image](https://github.com/wearewar3/SuperSimpleLudo/raw/master/gameInfo2.jpg)
 
 ![image](https://github.com/wearewar3/SuperSimpleLudo/raw/master/redRoute.jpg)
+
 this picture shows the route for the red plane from the start point to the finish point
 Each color has the similar route
 
