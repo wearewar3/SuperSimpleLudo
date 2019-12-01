@@ -22,6 +22,7 @@ Rules for the Game
 ![image](https://github.com/wearewar3/SuperSimpleLudo/raw/master/redRoute.jpg)
 
 this picture shows the route for the red plane from the start point to the finish point
+
 Each color has the similar route
 
 
@@ -44,4 +45,4 @@ P.S. Now the game has no AI player and starts in the order of blue, green, red a
 
 P.S. the next version will have more planes for each player and AI player will be added into the game.
 
-Happy Enjoying the Game!!!!!
+Happy SSL!!!!!
