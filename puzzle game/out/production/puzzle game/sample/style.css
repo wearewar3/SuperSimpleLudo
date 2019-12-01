@@ -1,0 +1,40 @@
+#rollButton:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+#rollButton {
+    -fx-background-radius: 200;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#Plane1 {
+    -fx-background-radius: 20;
+    -fx-background-color: #ffff00ff;
+}
+
+#Plane1:hover {
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+
+
+#blueP:hover{
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-opacity: 0.5;
+}
+
+#yellowP:hover{
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-opacity: 0.5;
+}
+
+#redP:hover{
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-opacity: 0.5;
+}
+
+#greenP:hover{
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-opacity: 0.5;
+}

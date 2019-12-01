@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<SplitPane dividerPositions="0.68561872909699" maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+  <items>
+    <AnchorPane minHeight="400.0" minWidth="400.0" prefHeight="400.0" prefWidth="400.0">
+         <children>
+             <ImageView fitHeight="466.0" fitWidth="719.0" layoutX="-117.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                 <effect>
+                     <GaussianBlur radius="3.0" />
+                 </effect>
+                 <Image url="@nebula.jpg" />
+             </ImageView>
+            <ImageView fitHeight="60.0" fitWidth="60.0" layoutX="170.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@moon.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="40.0" layoutX="154.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+               <image>
+                  <Image url="@redArrow.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="40.0" layoutX="212.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true" rotate="180.0">
+               <image>
+                  <Image url="@redArrow.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="40.0" layoutX="152.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true" rotate="0.0">
+               <image>
+                  <Image url="@blueArrow.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="40.0" layoutX="210.0" layoutY="112.0" pickOnBounds="true" preserveRatio="true" rotate="0.0">
+               <image>
+                  <Image url="@blueArrow.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="40.0" layoutX="99.0" layoutY="165.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+               <image>
+                  <Image url="@yellowArrow.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="40.0" layoutX="99.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true" rotate="270.0">
+               <image>
+                  <Image url="@yellowArrow.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="40.0" layoutX="261.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+               <image>
+                  <Image url="@greenArrow.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="16.0" fitWidth="40.0" layoutX="261.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+               <image>
+                  <Image url="@greenArrow.png" />
+               </image>
+            </ImageView>
+
+            <Circle fx:id="spB" fill="BLUE" layoutX="140.0" layoutY="370.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="spG" fill="GREEN" layoutX="30.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="spR" fill="RED" layoutX="260.0" layoutY="30.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="spY" fill="YELLOW" layoutX="370.0" layoutY="260.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="140.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true" x="-15.0" y="-15.0">
+               <image>
+                  <Image url="@blueStart.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="30.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true" x="-15.0" y="-15.0">
+               <image>
+                  <Image url="@greenStart.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="260.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" x="-15.0" y="-15.0">
+               <image>
+                  <Image url="@redStart.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="370.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" x="-15.0" y="-15.0">
+               <image>
+                  <Image url="@yellowStart.png" />
+               </image>
+            </ImageView>
+
+
+
+            <Circle fx:id="p1" fill="BLUE" layoutX="60.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p2" fill="GREEN" layoutX="80.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p3" fill="RED" layoutX="100.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p4" fill="YELLOW" layoutX="120.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p5" fill="BLUE" layoutX="140.0" layoutY="120.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p6" fill="GREEN" layoutX="140.0" layoutY="100.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p7" fill="RED" layoutX="140.0" layoutY="80.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p8" fill="YELLOW" layoutX="140.0" layoutY="60.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p9" fill="BLUE" layoutX="160.0" layoutY="60.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p10" fill="GREEN" layoutX="180.0" layoutY="60.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p11" fill="RED" layoutX="200.0" layoutY="60.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p12" fill="YELLOW" layoutX="220.0" layoutY="60.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p13" fill="BLUE" layoutX="240.0" layoutY="60.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p14" fill="GREEN" layoutX="260.0" layoutY="60.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p15" fill="RED" layoutX="260.0" layoutY="80.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p16" fill="YELLOW" layoutX="260.0" layoutY="100.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p17" fill="BLUE" layoutX="260.0" layoutY="120.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p18" fill="GREEN" layoutX="280.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p19" fill="RED" layoutX="300.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p20" fill="YELLOW" layoutX="320.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p21" fill="BLUE" layoutX="340.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+
+            <Circle fx:id="p22" fill="GREEN" layoutX="340.0" layoutY="160.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p23" fill="RED" layoutX="340.0" layoutY="180.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p24" fill="YELLOW" layoutX="340.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p25" fill="BLUE" layoutX="340.0" layoutY="220.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p26" fill="GREEN" layoutX="340.0" layoutY="240.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+
+            <Circle fx:id="p27" fill="RED" layoutX="340.0" layoutY="260.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p28" fill="YELLOW" layoutX="320.0" layoutY="260.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p29" fill="BLUE" layoutX="300.0" layoutY="260.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p30" fill="GREEN" layoutX="280.0" layoutY="260.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p31" fill="RED" layoutX="260.0" layoutY="280.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p32" fill="YELLOW" layoutX="260.0" layoutY="300.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p33" fill="BLUE" layoutX="260.0" layoutY="320.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p34" fill="GREEN" layoutX="260.0" layoutY="340.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p35" fill="RED" layoutX="240.0" layoutY="340.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p36" fill="YELLOW" layoutX="220.0" layoutY="340.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p37" fill="BLUE" layoutX="200.0" layoutY="340.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p38" fill="GREEN" layoutX="180.0" layoutY="340.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p39" fill="RED" layoutX="160.0" layoutY="340.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p40" fill="YELLOW" layoutX="140.0" layoutY="340.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p41" fill="BLUE" layoutX="140.0" layoutY="320.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p42" fill="GREEN" layoutX="140.0" layoutY="300.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p43" fill="RED" layoutX="140.0" layoutY="280.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p44" fill="YELLOW" layoutX="120.0" layoutY="260.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p45" fill="BLUE" layoutX="100.0" layoutY="260.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p46" fill="GREEN" layoutX="80.0" layoutY="260.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p47" fill="RED" layoutX="60.0" layoutY="260.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+
+            <Circle fx:id="p48" fill="YELLOW" layoutX="60.0" layoutY="240.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p49" fill="BLUE" layoutX="60.0" layoutY="220.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p50" fill="GREEN" layoutX="60.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p51" fill="RED" layoutX="60.0" layoutY="180.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p52" fill="YELLOW" layoutX="60.0" layoutY="160.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+
+            <Circle fx:id="p53" fill="BLUE" layoutX="200.0" layoutY="320.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p54" fill="BLUE" layoutX="200.0" layoutY="300.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p55" fill="BLUE" layoutX="200.0" layoutY="280.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p56" fill="BLUE" layoutX="200.0" layoutY="260.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p57" fill="BLUE" layoutX="200.0" layoutY="240.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p58" fill="BLUE" layoutX="200.0" layoutY="215.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+
+            <Circle fx:id="p59" fill="GREEN" layoutX="80.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p60" fill="GREEN" layoutX="100.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p61" fill="GREEN" layoutX="120.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p62" fill="GREEN" layoutX="140.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p63" fill="GREEN" layoutX="160.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p64" fill="GREEN" layoutX="185.0" layoutY="200.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+
+            <Circle fx:id="p65" fill="RED" layoutX="200.0" layoutY="80.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p66" fill="RED" layoutX="200.0" layoutY="100.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p67" fill="RED" layoutX="200.0" layoutY="120.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p68" fill="RED" layoutX="200.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p69" fill="RED" layoutX="200.0" layoutY="160.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p70" fill="RED" layoutX="200.0" layoutY="185.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+
+            <Circle fx:id="p71" fill="YELLOW" layoutX="320.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p72" fill="YELLOW" layoutX="300.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p73" fill="YELLOW" layoutX="280.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p74" fill="YELLOW" layoutX="260.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p75" fill="YELLOW" layoutX="240.0" layoutY="200.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="p76" fill="YELLOW" layoutX="215.0" layoutY="200.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+
+            <Circle fx:id="blueP" fill="BLUE" layoutX="80.0" layoutY="320.0" onMouseClicked="#goBlue" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="yellowP" fill="YELLOW" layoutX="320.0" layoutY="320.0" onMouseClicked="#goYellow" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="greenP" fill="GREEN" layoutX="80.0" layoutY="80.0" onMouseClicked="#goGreen" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="redP" fill="RED" layoutX="320.0" layoutY="80.0" onMouseClicked="#goRed" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+
+
+         </children></AnchorPane>
+    <AnchorPane minHeight="398.0" minWidth="154.0" prefHeight="398.0" prefWidth="154.0" style="-fx-background-color: #1b1c1a;">
+         <children>
+            <TextArea fx:id="processText" layoutX="10.0" layoutY="233.0" prefHeight="150.0" prefWidth="166.0" style="-fx-text-fill: blue;">
+               <font>
+                  <Font size="10.0" />
+               </font></TextArea>
+            <Button fx:id="rollButton" layoutX="42.0" layoutY="175.0" mnemonicParsing="false" onAction="#pressButton" prefHeight="20.0" prefWidth="100.0" text="Roll the Dice" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="MV Boli" size="12.0" />
+               </font></Button>
+            <AnchorPane layoutX="32.0" layoutY="36.0" prefHeight="120.0" prefWidth="120.0" style="-fx-background-color: #4be10c; -fx-background-radius: 20;">
+               <children>
+                  <Text fx:id="numFinal" fill="#e10c4b" layoutX="10.0" layoutY="87.0" stroke="#0c4be1" strokeType="OUTSIDE" strokeWidth="5.0" text="0" textAlignment="CENTER" wrappingWidth="100.0">
+                     <font>
+                        <Font size="72.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+  </items>
+</SplitPane>
