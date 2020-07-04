@@ -131,6 +131,11 @@ public class Controller {
                 p8, p9, p10, p11, p12, p13, p14, p15, p16, p17,               //34-43
                 p18, p19, p20, p21, p22, p23, p24, p71, p72, p73,             //44-53
                 p74, p75, p76};                                               //54-56
+        
+        processText.appendText("Welcome SSL!!\n" +
+                "Roll 6 to move the plane.\n" +
+                "Reaching the moon First WINS!!\n" +
+                "Let's start, Blue first!!\n");
     }
     //test
 
@@ -581,9 +586,9 @@ public class Controller {
         int i = -1;
         switch (n.getId()){
             case "blueP": i = 0; break;
-            case "redP": i = 1; break;
-            case "yellowP": i = 2; break;
-            case "greenP": i = 3; break;
+            case "greenP": i = 1; break;
+            case "redP": i = 2; break;
+            case "yellowP": i = 3; break;
         }
         return i;
     }
