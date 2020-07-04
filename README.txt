@@ -1,0 +1,11 @@
+SSL.jar Running Notice
+
+I am using javafx SDK 11.0.2 and jdk 13.0.1 to build this samll game. 
+So, using 
+java --module-path "PATH_TO_JAVAFX_LIB" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web -jar SSL.jar
+in terminal under the folder where this program is to open this SSL.jar.
+In my system, 
+java --module-path "C:/Program Files/Java/javafx-sdk-11.0.2/lib" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.web -jar SSL.jar
+is used to running this program.
+
+The javafx SDK can be downloaded here, https://gluonhq.com/products/javafx/
